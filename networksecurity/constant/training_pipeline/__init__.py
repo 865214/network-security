@@ -27,6 +27,9 @@ DATA_INGESTIONTRAIN_TEST_SPLIT_RATION: float = 0.2
 
 
 SCHEMA_FILE_PATH = os.path.join("data_schema", "schema.yaml")
+SAVE_MODEL_DIR = os.path.join("save_models")
+MODEL_FILE_NAME = ('model.pkl')
+
 """
 Data validation related constant start with DATA_VALIDATION VAR NAME
 """
