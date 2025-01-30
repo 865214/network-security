@@ -29,7 +29,7 @@ if __name__ == "__main__":
         logging.info('Data Transformation Completed')
         print(data_transsformation_artifact)
         
-        logging.info("Model traininf Started")
+        logging.info("Model training Started")
         model_trainer_config = ModelTrainerConfig(trainingpiprlineconfig)
         model_trainer = ModelTrainer(model_trainer_config=model_trainer_config, data_transformation_artifact=data_transsformation_artifact)
         model_trainer_artifact = model_trainer.initiate_model_trainer()
